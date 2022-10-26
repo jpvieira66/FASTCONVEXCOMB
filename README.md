@@ -1,5 +1,4 @@
 # FASTCONVEXCOMB
-===============
 
 The algorithm is a novel approach for fast computation of convex combination coefficients based on
 ray shooting. Such a problem arises in the real-time implementation of many set-based control techniques, which require a
