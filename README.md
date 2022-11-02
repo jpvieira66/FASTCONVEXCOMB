@@ -64,8 +64,8 @@ questions and investigate any bug reports.
 ## Credits
 
 This tools presented here were developed by
-[Roberto K. H. Galvão](http://www.ele.ita.br/~kawakami/),
-[João Paulo Vieira]()
+[Roberto K. H. Galvão](http://www.ele.ita.br/~kawakami/), 
+[João Paulo Vieira]() and
 [Rubens J. M. Afonso](http://www.ita.br/~rubens).
 
 If this tools comes handy in your research, please consider citing our
@@ -85,6 +85,6 @@ pages = {},
 year = {2023},
 issn = {},
 doi = {},
-url = {https://www.sciencedirect.com/science/article/pii/S0005109822005453},
+url = {},
 author = {J. P. Vieira, R. K. H. Galvão and R. J. M. Afonso.},
 ```
