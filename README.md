@@ -28,7 +28,7 @@ As result the algorithm returnt the vertices and the coefficients of the convex 
 
 
 $$ P.V(listV,:) = {\left\lbrack \matrix{ 1  &  -1  &   1 \\
-                                        -1  &  \\;1  &-1 \\
+                                        -1  &  \\;\\;1  &-1 \\
                                         -1  &   \\; 1  &   1 \\
                                         -1  &  -1  &   1 } \right\rbrack} 
 $$
