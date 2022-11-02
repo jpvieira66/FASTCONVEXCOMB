@@ -10,8 +10,13 @@ constraints on the polytope structure and requires only a list of vertices and b
  An example of usage of the script is given by [testConvexCombination.m](testConvexCombination.m)
  
                  Algorithm Ray-shooting Step 1               |               Algorithm Ray-shooting Step 1 
-![RayShooting1](Ray_shooting1.png?raw=true "Ray Shooting 1" =75%x)  ![RayShooting2](Ray_shooting1.png?raw=true "Ray Shooting 2" =75%x)
+                 
+<img src="Ray_shooting1.png" width="100" height="100">
 
+
+![RayShooting1](Ray_shooting1.png?raw=true "Ray Shooting 1" =50%x)  ![RayShooting2](Ray_shooting1.png?raw=true "Ray Shooting 2" =50%x)
+
+ Algorithm Ray-shooting Step 1 
 ![RayShooting3](Ray_shooting1.png?raw=true "Ray Shooting 3")
 
 ## Installation
