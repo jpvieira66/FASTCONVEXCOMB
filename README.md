@@ -13,9 +13,10 @@ constraints on the polytope structure and requires only a list of vertices and b
                  
 <img src="Ray_shooting1.png" width="399" height="300">                   <img src="Ray_shooting2.png" width="399" height="300">
 
-                                              |  Algorithm Ray-shooting Step 3 |
-                                                
-                                         <img src="Ray_shooting3.png" width="399" height="300">
+                                              
+<p align="center">
+<img src="Ray_shooting3.png" width="399" height="300">
+</p>
 
 
 
