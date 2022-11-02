@@ -9,11 +9,11 @@ constraints on the polytope structure and requires only a list of vertices and b
 
  An example of usage of the script is given by [testConvexCombination.m](testConvexCombination.m)
  
-                 Algorithm Ray-shooting Step 1               |               Algorithm Ray-shooting Step 1 
+                 **Algorithm Ray-shooting Step 1**               |               **Algorithm Ray-shooting Step 1** 
                  
 <img src="Ray_shooting1.png" width="399" height="300">                   <img src="Ray_shooting2.png" width="399" height="300">
 <p align="center">
-Algorithm Ray-shooting Step 3          
+**Algorithm Ray-shooting Step 3**          
 </p>                                              
 <p align="center">
 <img src="Ray_shooting3.png" width="399" height="300">
