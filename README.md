@@ -15,11 +15,11 @@ constraints on the polytope structure and requires only a list of vertices and b
                   **Algorithm Ray-shooting Step 1  **                           **Algorithm Ray-shooting Step 2** 
                  
 <img src="Ray_shooting1.png" width="399" height="300">                   <img src="Ray_shooting2.png" width="399" height="300">
+
 <p align="center">
- 
 **Algorithm Ray-shooting Step 3** 
- 
-</p>                                              
+</p>           
+
 <p align="center">
 <img src="Ray_shooting3.png" width="399" height="300">
 </p>
@@ -33,7 +33,8 @@ $$ P.V(listV,:) = {\left\lbrack \matrix{ 1  &  -1  &   1 \\
                                         -1  &  -1  &   1 } \right\rbrack} 
 $$
     
-$$\lambda = [0.60 \; 0.25 \; 0.10 \;  0.05]$$
+$$\lambda = [0.60 \;\; 0.25 \;\; 0.10 \;\;  0.05]$$
+
 
 
 ## Installation
