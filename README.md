@@ -24,11 +24,16 @@ constraints on the polytope structure and requires only a list of vertices and b
 
 As result the algorithm returnt the vertices and the coefficients of the convex combination
 
+
+$$ {\left\lbrack \matrix{ 1  &  -1  &   1 \\
+                         -1  &   1  &  -1 \\
+                         -1  &   1  &   1 \\
+                         -1  &  -1  &   1] } \right\rbrack} 
+$$
+
 P.V(listV,:) = [
-     1    -1     1
-    -1     1    -1
-    -1     1     1
-    -1    -1     1] 
+    
+
     
 $$\lambda = [0.60 \; 0.25 \; 0.10 \;  0.05]$$
 
