@@ -8,6 +8,8 @@ constraints on the polytope structure and requires only a list of vertices and b
 ## Examples
 
  An example of usage of the script is given by [testConvexCombination.m](testConvexCombination.m)
+ 
+![Alt text](Ray_shooting1.png?raw=true "Ray Shooting 1")
 
 
 ## Installation
@@ -19,3 +21,4 @@ Add the path of the Main folder to the MATLAB Path
 External dependencies of FastConvexComb are:
 
 1. MPT3 ([https://www.mpt3.org/](https://www.mpt3.org/))
+
