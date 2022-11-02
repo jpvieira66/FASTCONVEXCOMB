@@ -87,5 +87,5 @@ year = {2023},
 issn = {},
 doi = {},
 url = {},
-author = {J. P. Vieira, R. K. H. Galvão and R. J. M. Afonso.},
+author = {J. P. Vieira, R. K. H. Galvão and R. J. M. Afonso. },
 ```
