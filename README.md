@@ -11,13 +11,10 @@ constraints on the polytope structure and requires only a list of vertices and b
  
                  Algorithm Ray-shooting Step 1               |               Algorithm Ray-shooting Step 1 
                  
-<img src="Ray_shooting1.png" width="399" height="300">              <img src="Ray_shooting2.png" width="399" height="300">
+<img src="Ray_shooting1.png" width="399" height="300">                   <img src="Ray_shooting2.png" width="399" height="300">
+                                         <img src="Ray_shooting3.png" width="399" height="300">
 
 
-![RayShooting1](Ray_shooting1.png?raw=true "Ray Shooting 1" =50%x)  ![RayShooting2](Ray_shooting1.png?raw=true "Ray Shooting 2" =50%x)
-
- Algorithm Ray-shooting Step 1 
-![RayShooting3](Ray_shooting1.png?raw=true "Ray Shooting 3")
 
 ## Installation
 
