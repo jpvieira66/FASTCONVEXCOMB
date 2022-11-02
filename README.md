@@ -9,6 +9,8 @@ constraints on the polytope structure and requires only a list of vertices and b
 
  An example of usage of the script is given by [testConvexCombination.m](testConvexCombination.m)
  
+ The point x = [ 0.2000   -0.3000    0.5000]
+ 
                   **Algorithm Ray-shooting Step 1  **                           **Algorithm Ray-shooting Step 2** 
                  
 <img src="Ray_shooting1.png" width="399" height="300">                   <img src="Ray_shooting2.png" width="399" height="300">
