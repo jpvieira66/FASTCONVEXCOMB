@@ -16,7 +16,9 @@ constraints on the polytope structure and requires only a list of vertices and b
                  
 <img src="Ray_shooting1.png" width="399" height="300">                   <img src="Ray_shooting2.png" width="399" height="300">
 <p align="center">
-**Algorithm Ray-shooting Step 3**          
+ 
+**Algorithm Ray-shooting Step 3** 
+ 
 </p>                                              
 <p align="center">
 <img src="Ray_shooting3.png" width="399" height="300">
@@ -26,9 +28,9 @@ As result the algorithm returnt the vertices and the coefficients of the convex 
 
 
 $$ P.V(listV,:) = {\left\lbrack \matrix{ 1  &  -1  &   1 \\
-                         -1  &   1  &  -1 \\
-                         -1  &   1  &   1 \\
-                         -1  &  -1  &   1 } \right\rbrack} 
+                                        -1  &   1  &  -1 \\
+                                        -1  &   1  &   1 \\
+                                        -1  &  -1  &   1 } \right\rbrack} 
 $$
     
 $$\lambda = [0.60 \; 0.25 \; 0.10 \;  0.05]$$
