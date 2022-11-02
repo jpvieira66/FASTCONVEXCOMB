@@ -12,6 +12,8 @@ constraints on the polytope structure and requires only a list of vertices and b
                  Algorithm Ray-shooting Step 1               |               Algorithm Ray-shooting Step 1 
                  
 <img src="Ray_shooting1.png" width="399" height="300">                   <img src="Ray_shooting2.png" width="399" height="300">
+
+                                                Algorithm Ray-shooting Step 1 
                                          <img src="Ray_shooting3.png" width="399" height="300">
 
 
