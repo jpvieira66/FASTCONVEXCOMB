@@ -1,4 +1,5 @@
 # FASTCONVEXCOMB
+## Description
 <center>
 The algorithm is a novel approach for fast computation of convex combination coefficients based on
 ray shooting. Such a problem arises in the real-time implementation of many set-based control techniques, which require a
@@ -6,7 +7,18 @@ computationally efficient solution to cope with high dimension or fast dynamics 
 constraints on the polytope structure and requires only a list of vertices and boundary hyperplanes. The new method provided faster solutions in all cases, with speed-ups of up to ten-fold.
 </center>
 
-## Examples
+
+## Installation
+
+Add the path of the Main folder to the MATLAB Path
+
+### Dependencies
+
+External dependencies of FastConvexComb are:
+
+1. MPT3 ([https://www.mpt3.org/](https://www.mpt3.org/))
+
+## Example
 
  An example of usage of the script is given by [testConvexCombination.m](testConvexCombination.m)
  
@@ -31,17 +43,6 @@ $$ P.V(listV,:) = {\left\lbrack \matrix{ 1  &  -1  &   1 \\
 $$
     
 $$\lambda = [0.60 \\; 0.25 \\; 0.10 \\;  0.05]$$
-
-## Installation
-
-Add the path of the Main folder to the MATLAB Path
-
-### Dependencies
-
-External dependencies of FastConvexComb are:
-
-1. MPT3 ([https://www.mpt3.org/](https://www.mpt3.org/))
-
 
 ## License
 
