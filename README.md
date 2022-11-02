@@ -19,7 +19,7 @@ constraints on the polytope structure and requires only a list of vertices and b
 <img src="Ray_shooting3.png" width="399" height="300">
 </p>
 
-As result the algorithm returnt the vertices and the coefficients of the convex combination
+As result the algorithm returns the vertices and the coefficients of the convex combination
 
 
 $$ P.V(listV,:) = {\left\lbrack \matrix{ 1  &  -1  &   1 \\
