@@ -1,48 +1,36 @@
-profile on
-clear, clc, close all
+%% Ilustrative example of the use of the fast method for obtaining convex combination coefficients
+%  presented in the paper 
+% J. P. Vieira, R. K. H. Galvão and R. J. M. Afonso. "A fast method for obtaining convex combination coefficients," In Automatica, December 16--18, 2023.
 
-% randn('state',2)
+n = 3;
+% Setting the polytope limits
+x_min = [-1 -1 -1];
+x_max = [ 1 1 1];
 
-nP = 20; % Number of random points employd in the creation of the polytope
-n = 4; % Dimension
+% Constraint sets represented by polpyhedrons
+P = Polyhedron('lb',x_min,'ub',x_max);
+plot(P,'color',[0.6 0.6 0.6],'alpha',0.2);
 
-Vmpt = randn(nP,n); % Vertex matrix in MPT format (row-wise)
+% Point to determine the convex combination
+x = [0.2 -0.3 0.5];
 
-P = Polyhedron(Vmpt);
-P.minVRep();
+[listV, lambda] = findConvexCombination(P.A,P.b,P.V',x');
 
-V = (P.V)'; % Vertices in column-wise form
-
-P.computeHRep;
-P.minHRep();
-aux = P.H;
-H = aux(:,1:n);
-b = aux(:,end);
-
-% Takes a point inside the polytope
-flag = 0;
-while flag == 0
-    x = 0.8*randn(n,1);
-    if max(H*x - b) < 0, flag = 1; end
+xhat = 0;
+nV = length(listV);
+for i = 1:nV
+    xhat = xhat + lambda(i)*P.V(listV(i),:);
 end
 
-disp('Start proposed algorithm.')
+% Showing the algorithm results
+fprintf('---------------------------Output Results-------------------------------\n')
 
-% max(H*x - b)
+fprintf('Original Point                         x = [%s] \n', num2str(reshape(x, 1, []))) ;
+fprintf('Point from the convex Combination hat{x} = [%s]\n\n',num2str(reshape(xhat, 1, [])));
 
-tic
-[listV, lambda] = findConvexCombination(H,b,V,x);
-elapsed_time = toc
+fprintf('Lambda                                   = [%s]\n',num2str(reshape(lambda, 1, [])));
+fprintf('Sum of Lambda coefficientes              =  %2.2f \n',sum(lambda));
 
-solV = V(:,listV);
-nSolV = length(solV);
-
-xhat = zeros(n,1);
-for i = 1:nSolV
-    xhat = xhat + lambda(i)*solV(:,i);
+for idx_vert = 1:nV
+fprintf('Selected vertice V%d  =  [%s]\n',idx_vert, num2str(reshape(P.V(listV(i),:), 1, [])));  
 end
-
-[x xhat]
-
-lambda
-sum(lambda)
