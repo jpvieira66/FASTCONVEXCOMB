@@ -9,7 +9,8 @@ constraints on the polytope structure and requires only a list of vertices and b
 
  An example of usage of the script is given by [testConvexCombination.m](testConvexCombination.m)
  
- The point x = [ 0.2000   -0.3000    0.5000]
+ The example adopted a unitary cube to illustrate the algorithm working. 
+ The algorithm sequence of ray-shoooting for the point point x = [ 0.2000  -0.3000    0.5000] is shown in the following figures
  
                   **Algorithm Ray-shooting Step 1  **                           **Algorithm Ray-shooting Step 2** 
                  
@@ -21,6 +22,15 @@ constraints on the polytope structure and requires only a list of vertices and b
 <img src="Ray_shooting3.png" width="399" height="300">
 </p>
 
+As result the algorithm returnt the vertices and the coefficients of the convex combination
+
+P.V(listV,:) = [
+     1    -1     1
+    -1     1    -1
+    -1     1     1
+    -1    -1     1] 
+    
+lambda = [0.6000    0.2500    0.1000    0.0500]
 
 
 ## Installation
