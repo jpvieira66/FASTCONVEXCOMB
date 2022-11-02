@@ -9,8 +9,11 @@ constraints on the polytope structure and requires only a list of vertices and b
 
  An example of usage of the script is given by [testConvexCombination.m](testConvexCombination.m)
  
-![Alt text](Ray_shooting1.png?raw=true "Ray Shooting 1")
+                 Algorithm Ray-shooting Step 1               |               Algorithm Ray-shooting Step 1 
+:-----------------------------------------------------------:|:----------------------------------------------------------:
+![RayShooting1](Ray_shooting1.png?raw=true "Ray Shooting 1")  ![RayShooting2](Ray_shooting1.png?raw=true "Ray Shooting 2")
 
+![RayShooting3](Ray_shooting1.png?raw=true "Ray Shooting 3")
 
 ## Installation
 
