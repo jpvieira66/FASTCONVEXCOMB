@@ -31,8 +31,6 @@ $$
     
 $$\lambda = [0.60 \\; 0.25 \\; 0.10 \\;  0.05]$$
 
-
-
 ## Installation
 
 Add the path of the Main folder to the MATLAB Path
@@ -43,3 +41,50 @@ External dependencies of FastConvexComb are:
 
 1. MPT3 ([https://www.mpt3.org/](https://www.mpt3.org/))
 
+
+## License
+
+The fast method for obtaining convex combination coefficients is free software: you can
+redistribute it and/or modify it under the terms of the GNU General Public
+License as published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.  See the GNU General Public License for more details.  You
+should have received a copy of the GNU General Public License along with this
+toolbox (see [LICENSE](./LICENSE)).  If not, see
+<https://www.gnu.org/licenses/>.
+
+It is the user's responsibility in assessing the correctness of the theory and
+software implementation before putting it to use in their own research or
+exploiting the results commercially. We are, however, very happy to answer any
+questions and investigate any bug reports.
+
+## Credits
+
+This tools presented here were developed by
+[Roberto K. H. Galvão](http://www.ele.ita.br/~kawakami/),
+[João Paulo Vieira]()
+[Rubens J. M. Afonso](http://www.ita.br/~rubens).
+
+If this tools comes handy in your research, please consider citing our
+work.
+
+IEEE citation style:
+
+> J. P. Vieira, R. K. H. Galvão and R. J. M. Afonso.  "A fast method for obtaining convex combination coefficients," In Automatica, December 16--18, 2023.
+    
+BibTeX entry: 
+```
+@article{VIEIRAGALVAOAFONSO2023,
+title = {A fast method for obtaining convex combination coefficients},
+journal = {Automatica},
+volume = {},
+pages = {},
+year = {2023},
+issn = {},
+doi = {},
+url = {https://www.sciencedirect.com/science/article/pii/S0005109822005453},
+author = {J. P. Vieira, R. K. H. Galvão and R. J. M. Afonso.},
+```
