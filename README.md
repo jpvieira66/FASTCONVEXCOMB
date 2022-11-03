@@ -20,7 +20,7 @@ External dependencies of FastConvexComb are:
 
 ## Example
 
- An example of usage of the script is given by [testConvexCombination.m](testConvexCombination.m)
+ An usage example of the script is given by [testConvexCombination.m](testConvexCombination.m)
  
  The example adopted a unitary cube to illustrate the algorithm working. 
  The algorithm sequence of ray-shoooting for the point 
