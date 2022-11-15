@@ -38,6 +38,7 @@ As result the algorithm returns the vertices and the coefficients of the convex 
 <p align="center">
 <img src="numeric_restults_example_FastConvex.png" width="399" height="300">
 </p>
+
 ## License
 
 The fast method for obtaining convex combination coefficients is free software: you can
