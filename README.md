@@ -35,14 +35,9 @@ External dependencies of FastConvexComb are:
 
 As result the algorithm returns the vertices and the coefficients of the convex combination
 
-
-$$ P.V(listV,:) = {\left\lbrack \matrix{ 1  &  -1  &   1 \\
-                                        -1  &  \\;\\;1  &-1 \\
-                                        -1  &   \\; 1  &   1 \\
-                                        -1  &  -1  &   1 } \right\rbrack} 
-$$
-    
-$$\lambda = [0.60 \\; 0.25 \\; 0.10 \\;  0.05]$$
+<p align="center">
+<img src="numeric_restults_example_FastConvex.png" width="399" height="300">
+</p>
 
 ## License
 
