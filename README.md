@@ -36,7 +36,7 @@ External dependencies of FastConvexComb are:
 As result, the algorithm returns the vertices and the coefficients of the convex combination
 
 <p align="center">
-<img src="./FastConvex_num_result.png" width="399" height="300">
+<img src="./FastConvex_num_result.PNG">
 </p>
 
 ## License
