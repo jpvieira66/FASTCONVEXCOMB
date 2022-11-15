@@ -61,8 +61,8 @@ questions and investigate any bug reports.
 ## Credits
 
 This tools presented here were developed by
-[Roberto K. H. Galvão](http://www.ele.ita.br/~kawakami/), 
-[João Paulo Vieira]() and
+[João Paulo Vieira](),
+[Roberto K. H. Galvão](http://www.ele.ita.br/~kawakami/) and 
 [Rubens J. M. Afonso](http://www.ita.br/~rubens).
 
 If this tools comes handy in your research, please consider citing our
