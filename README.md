@@ -27,7 +27,7 @@ External dependencies of FastConvexComb are:
  x = [ 0.2000  -0.3000    0.5000] is shown in the following figures
  
                  
-<img src="Ray_shooting1.eps" width="399" height="300">                   <img src="Ray_shooting2.png" width="399" height="300">
+<img src="Ray_shooting1.png" width="399" height="300">                   <img src="Ray_shooting2.png" width="399" height="300">
    
 <p align="center">
 <img src="Ray_shooting3.png" width="399" height="300">
