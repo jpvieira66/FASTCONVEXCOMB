@@ -4,7 +4,7 @@
 The algorithm is a novel approach for fast computation of convex combination coefficients based on
 ray shooting. Such a problem arises in the real-time implementation of many set-based control techniques, which require a
 computationally efficient solution to cope with high dimension or fast dynamics systems. The proposed method poses no
-constraints on the polytope structure and requires only a list of vertices and boundary hyperplanes. The new method provided faster solutions in all cases, with speed-ups of up to ten-fold.
+constraints on the polytope structure and requires only a list of vertices and boundary hyperplanes.
 </center>
 
 
@@ -22,7 +22,7 @@ External dependencies of FastConvexComb are:
 
  An usage example of the script is given by [testConvexCombination.m](testConvexCombination.m)
  
- The example adopted a unitary cube to illustrate the algorithm working. 
+ The example employs an unitary cube for for ease of visualization the algorithm working. 
  The algorithm sequence of ray-shoooting for the point 
  x = [ 0.2000  -0.3000    0.5000] is shown in the following figures
  
@@ -68,9 +68,7 @@ This tools presented here were developed by
 If this tools comes handy in your research, please consider citing our
 work.
 
-IEEE citation style:
-
-> J. P. Vieira, R. K. H. Galvão and R. J. M. Afonso.  "A fast method for obtaining convex combination coefficients," In Automatica, December 16--18, 2023.
+> J. P. Vieira, R. K. H. Galvão and R. J. M. Afonso.  "A fast method for obtaining convex combination coefficients," In Automatica, 2023.
     
 BibTeX entry: 
 ```
@@ -83,5 +81,5 @@ year = {2023},
 issn = {},
 doi = {},
 url = {},
-author = {J. P. Vieira, R. K. H. Galvão and R. J. M. Afonso. },
+author = {J. P. Vieira, R. K. H. Galvão and R. J. M. Afonso },
 ```
